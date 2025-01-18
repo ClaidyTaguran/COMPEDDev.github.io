@@ -68,16 +68,17 @@ body {
     font-family: "Poppins-SemiBold", Helvetica;
     font-weight: bold;
     color: #ffffff;
-    font-size: 2vh 2vw;
+    font-size: 1vh 1vw;
     letter-spacing: 0%;
     line-height: normal;
     text-align: center; /* Center text horizontally */
+    
   }
 
 .half.right {
     background-color: #00AAFF;
     position: relative;
-    padding: 40px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,8 +95,8 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
     color: white; 
 }
 
@@ -157,7 +158,7 @@ h1 {
     font-size: 0.9rem;
     color: #ffffff;
 }
-/* Media Queries (adjust as needed) */
+ /* Media Queries (adjust as needed) */
  @media (max-width: 991px) {
     .container {
         display: flex;
@@ -209,12 +210,13 @@ h1 {
     }
     .half.left img.logo {
         position: absolute;
-        top: 5vw;
+        top: 0vw;
         width: 80%;
     }
     .comped-a-social{
         position: absolute;
-        top: 25vw;
+        top: 18vw;
+        font-size: .5vh .5vw;
        
     }
   }
@@ -226,12 +228,12 @@ h1 {
     }
     .half.left img.logo {
         position: absolute;
-        top: 8vw;
+        top: 0vw;
         width: 80%;
     }
     .comped-a-social{
         position: absolute;
-        top: 35vw;
+        top: 18vw;
        
     }
   }

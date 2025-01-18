@@ -178,7 +178,6 @@ button:hover {
   color: #888;
 }
 
-
 @media (max-width: 768px) {
   .container {
     display: flex;
@@ -194,18 +193,18 @@ width: 100%;
 .half.left img.main-logo {
   
     position: relative;
-    top: -8vw;
+    top: 0vw;
     left: 2vw;
     width: 25%;
 }
 .half.left img.logo {
     position: absolute;
-    top: -5vw;
+    top: 0vw;
     width: 80%;
 }
 .comped-a-social{
     position: absolute;
-    top: 10vw;
+    top: 0vw;
    
 }
 .half.right {
@@ -230,18 +229,19 @@ width: 100%;
 .half.left img.main-logo {
   
     position: relative;
-    top: -8vw;
+    top: 0vw;
     left: 2vw;
     width: 25%;
 }
 .half.left img.logo {
     position: absolute;
-    top: -5vw;
+    top: 0vw;
     width: 80%;
 }
 .comped-a-social{
     position: absolute;
-    top: 10vw;
+    top: 0vw;
+      font-size: .5vh .5vw;
    
 }
 .half.right {
@@ -269,18 +269,18 @@ width: 100%;
 .half.left img.main-logo {
   
     position: relative;
-    top: -8vw;
+    top: 0vw;
     left: 2vw;
     width: 25%;
 }
 .half.left img.logo {
     position: absolute;
-    top: -5vw;
+    top: 0vw;
     width: 80%;
 }
 .comped-a-social{
     position: absolute;
-    top: 10vw;
+    top: 18vw;
    
 }
 .half.right {
@@ -292,3 +292,4 @@ width: 100%;
     width: 100%;
   }
 }
+

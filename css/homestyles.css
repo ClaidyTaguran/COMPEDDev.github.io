@@ -157,7 +157,7 @@ h1 {
     font-size: 0.9rem;
     color: #ffffff;
 }
- /* Media Queries (adjust as needed) */
+/* Media Queries (adjust as needed) */
  @media (max-width: 991px) {
     .container {
         display: flex;
@@ -186,17 +186,17 @@ h1 {
   @media (max-width: 768px) {
     .half.left img.main-logo {
         position: relative;
-        top: -35vw;
+        top: -25vw;
         width: 25%;
     }
     .half.left img.logo {
         position: absolute;
-        top: -10vw;
+        top: 0vw;
         width: 80%;
     }
     .comped-a-social{
         position: absolute;
-        top: 15vw;
+        top: 20vw;
        
     }
   }
@@ -204,34 +204,34 @@ h1 {
   @media (max-width: 480px) {
     .half.left img.main-logo {
         position: relative;
-        top: -47vw;
+        top: -25vw;
         width: 25%;
     }
     .half.left img.logo {
         position: absolute;
-        top: -10vw;
+        top: 5vw;
         width: 80%;
     }
     .comped-a-social{
         position: absolute;
-        top: 15vw;
+        top: 25vw;
        
     }
   }
   @media (max-width: 264px) {
     .half.left img.main-logo {
         position: relative;
-        top: -80vw;
+        top: -25vw;
         width: 25%;
     }
     .half.left img.logo {
         position: absolute;
-        top: -10vw;
+        top: 8vw;
         width: 80%;
     }
     .comped-a-social{
         position: absolute;
-        top: 15vw;
+        top: 35vw;
        
     }
   }
